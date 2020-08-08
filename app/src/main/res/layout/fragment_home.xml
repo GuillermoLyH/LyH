@@ -9,9 +9,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="171dp"
+        android:layout_width="181dp"
         android:layout_height="25dp"
         android:background="@color/sea_blue"
+        android:fontFamily="@font/noto_sans"
         android:text="@string/aduanas_txt"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -24,9 +25,10 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="171dp"
+        android:layout_width="181dp"
         android:layout_height="25dp"
         android:background="@color/sea_blue"
+        android:fontFamily="@font/noto_sans"
         android:text="Consultorías"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -39,9 +41,10 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="171dp"
+        android:layout_width="181dp"
         android:layout_height="25dp"
         android:background="@color/sea_blue"
+        android:fontFamily="@font/noto_sans"
         android:text="Compras públicas"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -54,9 +57,10 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="171dp"
+        android:layout_width="181dp"
         android:layout_height="25dp"
         android:background="@color/sea_blue"
+        android:fontFamily="@font/noto_sans"
         android:text="Procesos judiciales"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -69,9 +73,10 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="171dp"
+        android:layout_width="181dp"
         android:layout_height="25dp"
         android:background="@color/sea_blue"
+        android:fontFamily="@font/noto_sans"
         android:text="Asesoría permanente"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -84,9 +89,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="171dp"
+        android:layout_width="181dp"
         android:layout_height="25dp"
         android:background="@color/sea_blue"
+        android:fontFamily="@font/noto_sans"
         android:text="Capacitaciones"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -99,8 +105,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="171dp"
-        android:layout_height="143dp"
+        android:layout_width="181dp"
+        android:layout_height="153dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,8 +117,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="171dp"
-        android:layout_height="143dp"
+        android:layout_width="181dp"
+        android:layout_height="153dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
@@ -123,21 +129,20 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="171dp"
-        android:layout_height="143dp"
+        android:layout_width="181dp"
+        android:layout_height="153dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002"
         app:srcCompat="@drawable/compras2r" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="171dp"
-        android:layout_height="143dp"
+        android:layout_width="181dp"
+        android:layout_height="153dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,8 +153,8 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="171dp"
-        android:layout_height="143dp"
+        android:layout_width="181dp"
+        android:layout_height="153dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView10"
@@ -160,15 +165,14 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="171dp"
-        android:layout_height="143dp"
+        android:layout_width="181dp"
+        android:layout_height="153dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002"
         app:srcCompat="@drawable/consultoriasr" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

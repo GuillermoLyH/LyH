@@ -9,6 +9,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val actionBar = supportActionBar
+        actionBar!!.title = "Nuestros Servicios"
+
+
         Toast.makeText(this,getString(R.string.welcome),Toast.LENGTH_SHORT).show()
     }
 }
