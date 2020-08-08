@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LyH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aduanas_txt">Aduanas</string>
+    <string name="welcome">Bienvenido</string>
+</resources>
