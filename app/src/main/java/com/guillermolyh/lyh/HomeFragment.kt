@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
+import com.guillermolyh.lyh.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {
@@ -13,8 +16,48 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+
+        val binding = DataBindingUtil.inflate<FragmentHomeBinding>(
+            inflater, R.layout.fragment_home,
+            container, false
+        )
+
+        //Fragmento aduana
+        binding.imageView7.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_aduanaFragment)
+
+        }
+        //Fragmento capacitaciones
+        binding.imageView4.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_capacitacionesFragment)
+
+        }
+
+        //Fragmento compras
+        binding.imageView8.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_comprasFragment)
+
+        }
+
+
+        //Fragmento consultorias
+        binding.imageView9.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_consultoriaFragment)
+
+        }
+
+        //Fragmento asesorias
+        binding.imageView11.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_asesoriaFragment)
+
+        }
+        //Fragmento judicial
+        binding.imageView10.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_homeFragment_to_judicialFragment)
+
+        }
+
+        return binding.root
     }
 
 }

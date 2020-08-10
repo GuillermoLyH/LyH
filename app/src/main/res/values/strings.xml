@@ -4,4 +4,22 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="aduanas_txt">Aduanas</string>
     <string name="welcome">Bienvenido</string>
+    <string name="aduanas_text">Ofrecemos amplia gama de servicios para asesorar a importadores, exportadores y otros entes de la cadena logística</string>
+    <string name="aduana_long_text">Defensa frente a ajustes de impuestos y multas Peticiones a la Dirección General de Aduana Asesoría en procedimientos de verificación de origen Asesoría en procedimientos de verificación de valor Devoluciones por pago indebido de impuestos Solicitud de resoluciones anticipadas</string>
+    <string name="aduanas_title">ADUANAS</string>
+    <string name="capacitaciones_title">CAPACITACIONES</string>
+    <string name="capacitaciones_text">Brindamos servicios de formación en las temáticas de facilitación del comercio, compras públicas y otros</string>
+    <string name="capacitaciones_long_text">Conferencias en compras públicas y aduanas Seminario en compras públicas y aduanas Diplomado en compras públicas y aduanas Capacitación en administración pública</string>
+    <string name="compras_title">COMPRAS PÚBLICAS</string>
+    <string name="compras_text">Ofrecemos servicios de asesoramiento a ofertantes, contratistas e instituciones de la administración pública</string>
+    <string name="compras_long_text">Defensa frente imposición de multas e inhabilitaciones Asesoría a ONG´s que ejecutan fondos públicos Asesoría frente a no adjudicaciones, asesoría para defensa de adjudicaciones Elaboración de bases de licitación Términos de referencia, análisis de bases de licitación y asesoría en la elaboración de ofertas Acompañamiento a revisión de expedientes de contratación</string>
+    <string name="consultoria_text">Desarrollamos estudios y diagnósticos en nuestras áreas de especialidad</string>
+    <string name="consultoria_long_text">Facilitación del comercio Recaudación tributaria en aduanas Elaboración y actualización de manuales administrativos</string>
+    <string name="consultoria_title">CONSULTORÍAS</string>
+    <string name="asesoria_title">ASESORÍA PERMANENTE</string>
+    <string name="asesoria_text">Ofrecemos servicios de acompañamiento permanente a las empresas</string>
+    <string name="asesoria_long_text">Compras públicas Aduanas</string>
+    <string name="judicial_title">PROCESOS JUDICIALES</string>
+    <string name="judicial_text">Representamos los intereses de nuestros clientes ante los tribunales de la república</string>
+    <string name="judicial_long_text">Tribunales contencioso administrativo Sala de lo constitucional</string>
 </resources>

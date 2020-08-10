@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.guillermolyh.lyh.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_aduanaFragment"
+            app:destination="@id/aduanaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_asesoriaFragment"
+            app:destination="@id/asesoriaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_capacitacionesFragment"
+            app:destination="@id/capacitacionesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_consultoriaFragment"
+            app:destination="@id/consultoriaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_judicialFragment"
+            app:destination="@id/judicialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aduanaFragment"
+        android:name="com.guillermolyh.lyh.AduanaFragment"
+        android:label="fragment_aduana"
+        tools:layout="@layout/fragment_aduana" />
+    <fragment
+        android:id="@+id/asesoriaFragment"
+        android:name="com.guillermolyh.lyh.AsesoriaFragment"
+        android:label="fragment_asesoria"
+        tools:layout="@layout/fragment_asesoria" />
+    <fragment
+        android:id="@+id/capacitacionesFragment"
+        android:name="com.guillermolyh.lyh.CapacitacionesFragment"
+        android:label="fragment_capacitaciones"
+        tools:layout="@layout/fragment_capacitaciones" />
+    <fragment
+        android:id="@+id/comprasFragment"
+        android:name="com.guillermolyh.lyh.ComprasFragment"
+        android:label="fragment_compras"
+        tools:layout="@layout/fragment_compras" />
+    <fragment
+        android:id="@+id/consultoriaFragment"
+        android:name="com.guillermolyh.lyh.ConsultoriaFragment"
+        android:label="fragment_consultoria"
+        tools:layout="@layout/fragment_consultoria" />
+    <fragment
+        android:id="@+id/judicialFragment"
+        android:name="com.guillermolyh.lyh.JudicialFragment"
+        android:label="fragment_judicial"
+        tools:layout="@layout/fragment_judicial" />
+</navigation>
