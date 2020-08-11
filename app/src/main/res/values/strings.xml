@@ -22,4 +22,8 @@
     <string name="judicial_title">PROCESOS JUDICIALES</string>
     <string name="judicial_text">Representamos los intereses de nuestros clientes ante los tribunales de la república</string>
     <string name="judicial_long_text">Tribunales contencioso administrativo Sala de lo constitucional</string>
+    <string name="home_bar">Nuestros Servicios</string>
+    <string name="radio_aduana">Aduanas</string>
+    <string name="radio_compras">Compras públicas</string>
+    <string name="radio_ambas">Ambas</string>
 </resources>
