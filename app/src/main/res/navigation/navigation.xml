@@ -59,4 +59,29 @@
         android:name="com.guillermolyh.lyh.JudicialFragment"
         android:label="fragment_judicial"
         tools:layout="@layout/fragment_judicial" />
+    <fragment
+        android:id="@+id/suscribirseFragment"
+        android:name="com.guillermolyh.lyh.SuscribirseFragment"
+        android:label="fragment_suscribirse"
+        tools:layout="@layout/fragment_suscribirse" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.guillermolyh.lyh.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/documentoFragment"
+        android:name="com.guillermolyh.lyh.DocumentoFragment"
+        android:label="fragment_documento"
+        tools:layout="@layout/fragment_documento" />
+    <fragment
+        android:id="@+id/webinarFragment"
+        android:name="com.guillermolyh.lyh.WebinarFragment"
+        android:label="fragment_webinar"
+        tools:layout="@layout/fragment_webinar" />
+    <fragment
+        android:id="@+id/evaluenosFragment"
+        android:name="com.guillermolyh.lyh.EvaluenosFragment"
+        android:label="fragment_evaluenos"
+        tools:layout="@layout/fragment_evaluenos" />
 </navigation>

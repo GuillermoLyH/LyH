@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lyh"
+    tools:context=".ContactFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="@string/contact_title"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="174dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="Escríbanos"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/linea"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_name_icon"
+        android:drawablePadding="@dimen/small_gap"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:hint="@string/nombre_hint"
+        android:inputType="textPersonName"
+        android:paddingStart="@dimen/small_gap"
+        android:paddingEnd="@dimen/small_gap"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/editTextTextInstitution"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_empresa_icon"
+        android:drawablePadding="@dimen/small_gap"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:hint="@string/empresa_text"
+        android:inputType="text"
+        android:paddingStart="@dimen/small_gap"
+        android:paddingEnd="@dimen/small_gap"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextCountry"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+
+    <EditText
+        android:id="@+id/editTextTextCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_pais_icon"
+        android:drawablePadding="@dimen/small_gap"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:hint="@string/pais_text"
+        android:inputType="text"
+        android:paddingStart="@dimen/small_gap"
+        android:paddingEnd="@dimen/small_gap"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMessage"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextInstitution" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_mensaje_icon"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:hint="@string/mensaje_text"
+        android:inputType="textMultiLine"
+        android:paddingStart="@dimen/small_gap"
+        android:paddingEnd="@dimen/small_gap"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextCountry" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_phone_icon"
+        android:drawablePadding="@dimen/small_gap"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:hint="@string/telefono_text"
+        android:inputType="phone"
+        android:paddingStart="@dimen/small_gap"
+        android:paddingEnd="@dimen/small_gap"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_email_icon"
+        android:drawablePadding="@dimen/small_gap"
+        android:ems="10"
+        android:fontFamily="@font/noto_sans"
+        android:hint="@string/correo_hint"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/small_gap"
+        android:paddingEnd="@dimen/small_gap"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextInstitution"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button"
+        android:text="@string/enviar_btn_text"
+        android:textSize="15sp"
+        app:backgroundTint="#120D31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextMessage"
+        app:layout_constraintStart_toStartOf="@+id/editTextMessage"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

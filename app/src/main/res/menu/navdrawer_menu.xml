@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/suscribirseFragment"
+        android:icon="@drawable/ic_suscribirse"
+        android:title="@string/suscribirse_caps" />
+    <item
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/ic_contact_aside"
+        android:title="@string/contactenos_caps" />
+    <item
+        android:id="@+id/documentoFragment"
+        android:icon="@drawable/ic_documentos"
+        android:title="@string/documentos_caps" />
+    <item
+        android:id="@+id/webinarFragment"
+        android:icon="@drawable/ic_webinar"
+        android:title="@string/webinars_caps" />
+    <item
+        android:id="@+id/evaluenosFragment"
+        android:icon="@drawable/ic_evaluate"
+        android:title="@string/evaluacion_caps" />
+</menu>

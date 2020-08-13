@@ -26,4 +26,25 @@
     <string name="radio_aduana">Aduanas</string>
     <string name="radio_compras">Compras públicas</string>
     <string name="radio_ambas">Ambas</string>
+    <string name="suscribirse_text">Como una empresa de asesoría nos interesa que nuestros clientes se mantengan al tanto sobre los temas de interés respectivos a sus rubros.</string>
+    <string name="correo_hint">Correo electrónico</string>
+    <string name="nombre_hint">Nombre</string>
+    <string name="rubro_text">Rubro:</string>
+    <string name="suscribirse_btn">SUSCRIBIRSE</string>
+    <string name="suscribirse_title">¿Por qué suscribirse?</string>
+    <string name="suscribirse_caps">Suscribirse</string>
+    <string name="contact_title">¿Busca una solución?</string>
+    <string name="empresa_text">Empresa/Institución</string>
+    <string name="pais_text">País</string>
+    <string name="mensaje_text">Mensaje</string>
+    <string name="telefono_text">Teléfono</string>
+    <string name="enviar_btn_text">Enviar</string>
+    <string name="contactenos_caps">Contáctenos</string>
+    <string name="inicio_caps">Inicio</string>
+    <string name="documento_title">Selecciona un documento</string>
+    <string name="documentos_caps">Documentación</string>
+    <string name="webinar_title">Selecciona un webinar</string>
+    <string name="webinars_caps">Webinars</string>
+    <string name="evaluacion_title">Seleccione evaluación</string>
+    <string name="evaluacion_caps">Evalúenos</string>
 </resources>
