@@ -47,4 +47,14 @@
     <string name="webinars_caps">Webinars</string>
     <string name="evaluacion_title">Seleccione evaluación</string>
     <string name="evaluacion_caps">Evalúenos</string>
+    <string name="about2">En junio de 2010, decidimos emprender nuestra empresa y poner al servicio de nuestro país, los conocimientos adquiridos a lo largo de nuestra trayectoria, con el objetivo de contribuir al crecimiento de El Salvador, tanto con las asesorías que brindamos como con los puestos de trabajo directos e indirectos que generamos.</string>
+    <string name="about3"><![CDATA[López & Henríquez Abogados y Consultores es una compañía de profesionales con amplia experiencia dentro del Sector Público y Privado, en las áreas de: Facilitación del Comercio, Compras Públicas y Administración Públicas. Brindamos asesoramiento en éstas áreas específicas, adecuándonos a las necesidades de cada cliente.]]></string>
+    <string name="about1">Somos un matrimonio de profesionales que cuentan con más de 25 años de experiencia entre la Administración Publica y el Sector Privado.</string>
+    <string name="historia_title">Nuestra historia</string>
+    <string name="cofundador_text">Cofundador</string>
+    <string name="cofundadora_text">Cofundadora</string>
+    <string name="jefa_text">Mónica Henríquez</string>
+    <string name="jefe_text">Enrique López</string>
+    <string name="socios_title">Nuestros ejecutivos</string>
+    <string name="about_caps">Sobre nosotros</string>
 </resources>

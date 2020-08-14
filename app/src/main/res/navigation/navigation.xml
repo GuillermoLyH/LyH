@@ -84,4 +84,34 @@
         android:name="com.guillermolyh.lyh.EvaluenosFragment"
         android:label="fragment_evaluenos"
         tools:layout="@layout/fragment_evaluenos" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.guillermolyh.lyh.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_historiaFragment"
+            app:destination="@id/historiaFragment" />
+        <action
+            android:id="@+id/action_aboutFragment_to_clientesFragment"
+            app:destination="@id/clientesFragment" />
+        <action
+            android:id="@+id/action_aboutFragment_to_usFragment"
+            app:destination="@id/usFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historiaFragment"
+        android:name="com.guillermolyh.lyh.HistoriaFragment"
+        android:label="fragment_historia"
+        tools:layout="@layout/fragment_historia" />
+    <fragment
+        android:id="@+id/clientesFragment"
+        android:name="com.guillermolyh.lyh.ClientesFragment"
+        android:label="fragment_clientes"
+        tools:layout="@layout/fragment_clientes" />
+    <fragment
+        android:id="@+id/usFragment"
+        android:name="com.guillermolyh.lyh.UsFragment"
+        android:label="fragment_us"
+        tools:layout="@layout/fragment_us" />
 </navigation>

@@ -20,6 +20,10 @@
         android:icon="@drawable/ic_webinar"
         android:title="@string/webinars_caps" />
     <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_us"
+        android:title="@string/about_caps" />
+    <item
         android:id="@+id/evaluenosFragment"
         android:icon="@drawable/ic_evaluate"
         android:title="@string/evaluacion_caps" />
