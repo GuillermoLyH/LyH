@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.guillermolyh.lyh.databinding.FragmentAboutBinding
@@ -51,10 +52,15 @@ class AboutFragment : Fragment() {
             view.findNavController().navigate(R.id.action_aboutFragment_to_clientesFragment)
 
         }
+        setup()
 
         return binding.root
 
 
+    }
+
+    fun setup() {
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.about_bar)
     }
 
 }

@@ -26,7 +26,7 @@
     <string name="radio_aduana">Aduanas</string>
     <string name="radio_compras">Compras públicas</string>
     <string name="radio_ambas">Ambas</string>
-    <string name="suscribirse_text">Como una empresa de asesoría nos interesa que nuestros clientes se mantengan al tanto sobre los temas de interés respectivos a sus rubros.</string>
+    <string name="suscribirse_text">Como una empresa de asesoría nos interesa que nuestros clientes se mantengan al tanto sobre los temas de interés respectivos a sus rubros</string>
     <string name="correo_hint">Correo electrónico</string>
     <string name="nombre_hint">Nombre</string>
     <string name="rubro_text">Rubro:</string>
@@ -47,9 +47,9 @@
     <string name="webinars_caps">Webinars</string>
     <string name="evaluacion_title">Seleccione evaluación</string>
     <string name="evaluacion_caps">Evalúenos</string>
-    <string name="about2">En junio de 2010, decidimos emprender nuestra empresa y poner al servicio de nuestro país, los conocimientos adquiridos a lo largo de nuestra trayectoria, con el objetivo de contribuir al crecimiento de El Salvador, tanto con las asesorías que brindamos como con los puestos de trabajo directos e indirectos que generamos.</string>
-    <string name="about3"><![CDATA[López & Henríquez Abogados y Consultores es una compañía de profesionales con amplia experiencia dentro del Sector Público y Privado, en las áreas de: Facilitación del Comercio, Compras Públicas y Administración Públicas. Brindamos asesoramiento en éstas áreas específicas, adecuándonos a las necesidades de cada cliente.]]></string>
-    <string name="about1">Somos un matrimonio de profesionales que cuentan con más de 25 años de experiencia entre la Administración Publica y el Sector Privado.</string>
+    <string name="about2">En junio de 2010, decidimos emprender nuestra empresa y poner al servicio de nuestro país, los conocimientos adquiridos a lo largo de nuestra trayectoria, con el objetivo de contribuir al crecimiento de El Salvador, tanto con las asesorías que brindamos como con los puestos de trabajo directos e indirectos que generamos</string>
+    <string name="about3"><![CDATA[López & Henríquez Abogados y Consultores es una compañía de profesionales con amplia experiencia dentro del Sector Público y Privado, en las áreas de: Facilitación del Comercio, Compras Públicas y Administración Públicas. Brindamos asesoramiento en éstas áreas específicas, adecuándonos a las necesidades de cada cliente]]></string>
+    <string name="about1">Somos un matrimonio de profesionales que cuentan con más de 25 años de experiencia entre la Administración Publica y el Sector Privado</string>
     <string name="historia_title">Nuestra historia</string>
     <string name="cofundador_text">Cofundador</string>
     <string name="cofundadora_text">Cofundadora</string>
@@ -57,4 +57,16 @@
     <string name="jefe_text">Enrique López</string>
     <string name="socios_title">Nuestros ejecutivos</string>
     <string name="about_caps">Sobre nosotros</string>
+    <string name="consultorias_home">Consultorías</string>
+    <string name="judiciales_home">Procesos judiciales</string>
+    <string name="asesoria_home">Asesoría permanente</string>
+    <string name="capacitaciones_home">Capacitaciones</string>
+    <string name="compras_home">Compras públicas</string>
+    <string name="about_bar">Sobre Nosotros</string>
+    <string name="suscribirse_bar">Suscribirse</string>
+    <string name="webinar_bar">Webinars</string>
+    <string name="evaluenos_bar">Evalúenos</string>
+    <string name="documentos_bar">Documentación</string>
+    <string name="contact_bar">Contáctenos</string>
+
 </resources>

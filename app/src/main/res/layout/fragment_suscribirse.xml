@@ -60,12 +60,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.100000024" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_name_icon"
         android:drawablePadding="@dimen/small_gap"
@@ -77,15 +77,13 @@
         android:paddingEnd="@dimen/small_gap"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.35000002" />
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_email_icon"
         android:drawablePadding="@dimen/small_gap"
@@ -95,23 +93,20 @@
         android:inputType="textEmailAddress"
         android:paddingStart="@dimen/small_gap"
         android:paddingEnd="@dimen/small_gap"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView8"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42000002" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="278dp"
+        android:layout_height="130dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.58000004">
+        app:layout_constraintVertical_bias="0.48000002">
 
         <RadioButton
             android:layout_width="wrap_content"

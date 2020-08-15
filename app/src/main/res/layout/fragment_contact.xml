@@ -28,10 +28,12 @@
         android:text="Escríbanos"
         android:textAlignment="center"
         android:textSize="23sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -46,8 +48,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_name_icon"
         android:drawablePadding="@dimen/small_gap"
@@ -64,8 +66,8 @@
 
     <EditText
         android:id="@+id/editTextTextInstitution"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_empresa_icon"
         android:drawablePadding="@dimen/small_gap"
@@ -83,8 +85,8 @@
 
     <EditText
         android:id="@+id/editTextTextCountry"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_pais_icon"
         android:drawablePadding="@dimen/small_gap"
@@ -101,8 +103,8 @@
 
     <EditText
         android:id="@+id/editTextMessage"
-        android:layout_width="wrap_content"
         android:layout_height="110dp"
+        android:layout_width="287dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_mensaje_icon"
         android:drawablePadding="10dp"
@@ -119,8 +121,8 @@
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_phone_icon"
         android:drawablePadding="@dimen/small_gap"
@@ -137,8 +139,8 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="287dp"
+        android:layout_height="43dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_email_icon"
         android:drawablePadding="@dimen/small_gap"

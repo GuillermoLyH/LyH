@@ -57,9 +57,14 @@ class HomeFragment : Fragment() {
             view.findNavController().navigate(R.id.action_homeFragment_to_judicialFragment)
 
         }
+        setup()
 
         return binding.root
 
+
+    }
+
+    fun setup() {
         (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.home_bar)
     }
 
